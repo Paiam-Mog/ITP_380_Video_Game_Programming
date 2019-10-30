@@ -6,7 +6,7 @@ the project we implemented the level generation by reading from a text file and 
 certain characters. Additionally, we implemented the player's controls and movement, the goomba movement, and the animations and sound
 effects of the game.
 
-Video Link Example of the final project look: https://www.dropbox.com/s/qcsv7lcz6h69p5o/Lab04.mp4?dl=0
+Video link example of the final project look: https://www.dropbox.com/s/qcsv7lcz6h69p5o/Lab04.mp4?dl=0
 
 
 Coding features and principles focused on in the project:
