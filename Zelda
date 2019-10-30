@@ -1,0 +1,25 @@
+Zelda Project:
+
+Project Description:
+In this project we implemented a dungeon inspired by "The Eagle" dungeon from the original The Legend of Zelda game for the NES, but our 
+implementation features less rooms, enemy types, and interactable objects than the original dungeon, but we still capture the look and 
+feel of the game. In this project, we generated the level by using tile mapping techniques by reading a CSV file and drawing specific
+tiles based on the corresponding tile ID number. Additionally we implemented the player controls, attack and movement, interactable
+objects in the environment such as secret blocks that open doors, collectable objects, enemy movement and attack patterns (including a
+boss battle), along with sprite animations and sound effects.
+
+Video link example of the final project look: https://www.dropbox.com/s/2n0x8awnc4vihj2/Lab05.mp4?dl=0
+
+
+Coding features and principles focused on in the project:
+ - Utilizing tile mapping techniques to generate dungeon rooms by reading from a CVS file and creating tiles corresponding to specific
+   values in the file
+ - Implementing collectables by using call back functions that take in the specific functions based on type of object collected
+ - Leading edge/trailing edge input recognition for player controls such as attacking in the context of Link
+ - Generating sprite animations be flipping through a series of sprites based on a set frame rate and the number of animation frames
+ - Playing sound effects and background music along with controlling sound channels
+ 
+ 
+Code Snippets:
+I cannot publicly post my code for this project due to the fact that this is still an active class. For the purposes of internship
+applications, please send an email to pmoghadd@usc.edu requesting for code files/samples and they will be provided. 
