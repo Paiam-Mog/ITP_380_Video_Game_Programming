@@ -1,0 +1,25 @@
+Mario Project:
+
+Project Description:
+In this project we recreated the first level (World 1-1) from the original Super Mario Bros. game, but a more simplified version of it. In
+the project we implemented the level generation by reading from a text file and generating blocks, goombas, and the player based on 
+certain characters. Additionally, we implemented the player's controls and movement, the goomba movement, and the animations and sound
+effects of the game.
+
+Video Link Example of the final project look: https://www.dropbox.com/s/qcsv7lcz6h69p5o/Lab04.mp4?dl=0
+
+
+Coding features and principles focused on in the project:
+ - Leading edge/trailing edge input recognition for player controls such as jumping in the context of Mario
+ - Utilizing Semi-Implicit Euler Integration to handle calculation involving the effect of gravity on the player
+ - Handling Axis-Aligned Bounding Box collisions in the context of platform games
+ - Implementing scrolling backgrounds and calculating appropriate camera position in the context of the player position and world position
+ - Generating sprite animations be flipping through a series of sprites based on a set frame rate and the number of animation frames
+ - Reading from a text file and dynamically generating a level based on the location of specific characters in the file
+ - Playing sound effects and background music along with controlling sound channels
+ 
+
+Code Snippets:
+I cannot publicly post my code for this project due to the fact that this is still an active class. For the purposes of internship
+applications, please send an email to pmoghadd@usc.edu requesting for code files/samples and they will be provided. 
+
