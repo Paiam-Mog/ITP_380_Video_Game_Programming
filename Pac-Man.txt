@@ -1,0 +1,18 @@
+Pac-Man Project:
+
+Project Description:
+In this project we wrote the AI of the ghost characters for a (mostly) faithful recreation of the original Pac-Man. We implemented a path
+finding algorithm to generate paths to specific targets on the game board for the ghosts. Additionally, we wrote the logic and movement
+for the four different states of movement: scatter, chase, frightened, and dead and the logic that handles transitioning between the
+different states. For the chase state, we implemented the ghost specific chasing logic for the four different ghost: Blinky, Inky, Pinky
+and Clyde.
+
+
+Coding features and principles focused on in the project:
+ - Implementing a state-machine style AI system to control which set of movement logic to assign for the ghosts at the given time
+ - Using A* Euclidean heuristic algorithm to perform path finding functions to generate the shortest path to a target movement node
+ 
+
+Code Snippets:
+I cannot publicly post my code for this project due to the fact that this is still an active class. For the purposes of internship
+applications, please send an email to pmoghadd@usc.edu requesting for code files/samples and they will be provided. 
