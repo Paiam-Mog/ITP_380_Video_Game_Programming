@@ -7,6 +7,8 @@ for the four different states of movement: scatter, chase, frightened, and dead 
 different states. For the chase state, we implemented the ghost specific chasing logic for the four different ghost: Blinky, Inky, Pinky
 and Clyde.
 
+Video link example of the final project look: https://www.dropbox.com/s/s32bsnly5737k21/Lab06.mp4?dl=0
+
 
 Coding features and principles focused on in the project:
  - Implementing a state-machine style AI system to control which set of movement logic to assign for the ghosts at the given time
