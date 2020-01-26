@@ -1,0 +1,29 @@
+Parkour's Edge Project:
+
+Project Description:
+For the final project of the class we created a parkour game inspired by Mirror's Edge called Parkour's Edge. In this project, we 
+implemented a variety of different features such as physics based movement, player movement state system, line segment intersection for 
+laser reflection and detection, quarternion based roation, collectibles, UI elements such as radar, messages and timers, location based 
+sound projection, and more.
+
+
+Coding features and principles focused on in the project:
+ - Implemented a complex player state movement machine that utilized collision detection to determine if a player was wall climbing, 
+   jumping, wall running, falling, or on the ground
+ - Utilized forces and phsyics to simulate movement, gravity, and friction
+ - Using line segment intersection on laser mines to determine collisions with objects such as mirrors, which reflected the laser onto 
+   other surfaces, as well as the player to determine if the mine "detonated"
+ - Implemented player and object rotation by using quaternions
+ - Applied object parenting to have objects act as children to other objects and have their respective world positions be update base on 
+   the parent space
+ - Checkpoint system that displayed messages to the player such as tutorials for the controls and movement and determine player 
+   progression and level advancement
+ - Displayed UI elements such as timers, collectible counter, tutorial messages to the player (in the case of checkpoints), and a radar
+   system that displayed blips of enemy camera and their direction relative to the player
+ - Implemented enemy security cameras that used cone detection to scan for players and played location based audio that would fall off as 
+   the player moves away and increase in volume as the player approached
+ 
+
+Code Snippets:
+I cannot publicly post my code for this project due to the fact that this is still an active class. For the purposes of internship
+applications, please send an email to pmoghadd@usc.edu requesting for code files/samples and they will be provided. 
