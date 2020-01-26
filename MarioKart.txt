@@ -1,0 +1,23 @@
+Mario Kart Project:
+
+Project Description:
+In this project we recreated the Rainbow Road race from the original Super Mario Kart game, but a more simplified version of it. In
+the project we implemented the use of heightmaps by reading from a CSV file, full character vehicle controller, enemy racer AI that utilized the same controls scheme as the player. Additionally, we implemented game UI, sound effects and music, and a spring camera to help visualize player movement.
+
+
+Coding features and principles focused on in the project:
+ - Implementating heightmaps of the track to have the player change altitude as they race and move about in the game space
+ - Conversion of grid cell positions on the heightmap to world coordinates in the game space to detect player position on the track
+ - Vehicle Controller script that create a set of controls and inputs that both the player and the enemy AI utilize to control vehicles
+ - Wrote an enemy AI script that determines whether or not to accelerate forward or turn right/left based on relative position to specific    pathing points in a given list
+ - Used checkpoints that convert the player's world positions to cell positions of the grid space to determine if they have advanced          past or fallen behind the enemy racer
+ - Created and attached a spring camera to the player to help visualize the kart turning on the track as well as asceding or descending
+   down ramps in the game
+ - Implemented UI that displays to the player the current lap they are on and what position they are in the race as well as indicating to
+   the player when they have advanced to the next lap and if they won or lost
+ - Playing sound effects and background music along with controlling sound channels 
+
+
+Code Snippets:
+I cannot publicly post my code for this project due to the fact that this is still an active class. For the purposes of internship
+applications, please send an email to pmoghadd@usc.edu requesting for code files/samples and they will be provided. 
